@@ -7,7 +7,9 @@ const App = () => {
   return (
     <>
       <Header />
-      <Home />
+      <div className="py-5">
+        <Home />
+      </div>
       <Footer />
     </>
   )
